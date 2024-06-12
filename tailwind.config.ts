@@ -10,6 +10,10 @@ const config: Config = {
     extend: {
       backgroundImage: {},
     },
+    colors: {
+      important: '#3c3c42',
+      muted: '#67676C',
+    },
   },
   plugins: [],
 };
