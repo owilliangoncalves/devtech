@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function EngSoftware() {
   return (
     <>
-      <section className='container '>
+      <section className='container mx-auto'>
         <h1 className='titulo py-16 '>Engenharia de Software</h1>
         <div className='md:grid md:grid-cols-3 gap-3'>
           <div className='bg-card'>

@@ -9,12 +9,11 @@ const config: Config = {
   ],
   theme: {
     container: {
-      center: true,
       screens: {
         sm: '300px',
         md: '768px',
         lg: '976px',
-        xl: '1440px',
+        xl: '1920px',
       },
     },
     extend: {
@@ -23,6 +22,7 @@ const config: Config = {
     colors: {
       important: '#3c3c42',
       muted: '#67676C',
+      hover: '#e0e0e0',
       card: '#F6F6F7',
     },
   },
