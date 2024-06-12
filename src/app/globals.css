@@ -1,3 +1,6 @@
 @tailwind base;
+.titulo {
+  @apply text-important text-4xl tracking-wide font-bold md:text-5xl lg:text-6xl;
+}
 @tailwind components;
 @tailwind utilities;

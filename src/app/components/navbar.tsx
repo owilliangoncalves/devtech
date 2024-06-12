@@ -4,7 +4,7 @@ import Logo from '/public/static/img/dev-logo.svg';
 
 export default function NavBar() {
   return (
-    <header className=''>
+    <header className='container'>
       <nav className='flex  items-center '>
         <Link href={'/'}>
           <Image src={Logo} alt='Logo Devs Experts' height={45} width={45} />
@@ -14,7 +14,7 @@ export default function NavBar() {
         <div className=' flex justify-end'>
           <ul className='flex gap-3 text-right text-important'>
             <li className='ml-3 '>
-              <Link href={'/'}>Eng. Software</Link>
+              <Link href={'/eng-software'}>Eng. Software</Link>
             </li>
             <li>
               <Link href={'/manifesto'}>Manifesto</Link>
