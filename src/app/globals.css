@@ -6,7 +6,7 @@
   @apply container mx-auto text-muted text-wrap lg:py-3 text-justify  leading-relaxed;
 }
 .titulo {
-  @apply text-important pb-3 text-4xl tracking-wide font-bold md:text-5xl lg:text-6xl;
+  @apply text-important pb-3 text-3xl tracking-wide font-bold md:text-5xl lg:text-6xl;
 }
 .tituloCard {
   @apply text-2xl py-3;
@@ -14,6 +14,10 @@
 
 .btHover {
   @apply hover:bg-hover hover:rounded;
+}
+
+.containerResponsive {
+  @apply container p-2;
 }
 @tailwind components;
 @tailwind utilities;

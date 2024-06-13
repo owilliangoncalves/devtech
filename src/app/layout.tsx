@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Devs Experts',
-  description: 'Um site sobre Engenharia de Software',
+  description:
+    'Aprenda Engenharia de Software de uma forma leve. Feito por estudantes de Engenharia de Software para estudantes.',
 };
 
 export default function RootLayout({
