@@ -1,7 +1,4 @@
-import { Inter } from 'next/font/google';
-import type { Config } from 'tailwindcss';
-
-const config: Config = {
+module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,12 +6,7 @@ const config: Config = {
   ],
   theme: {
     container: {
-      screens: {
-        sm: '300px',
-        md: '768px',
-        lg: '976px',
-        xl: '1920px',
-      },
+      center: true,
     },
     extend: {
       backgroundImage: {},
@@ -25,7 +17,10 @@ const config: Config = {
       hover: '#e0e0e0',
       card: '#F6F6F7',
     },
+    corePlugins: {
+      aspectRatio: false,
+    },
+
+    plugins: [require('@tailwindcss/aspect-ratio')],
   },
-  plugins: [],
 };
-export default config;

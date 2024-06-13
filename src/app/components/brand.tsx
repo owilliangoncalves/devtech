@@ -1,10 +1,29 @@
 import Image from 'next/image';
 import Logo from '/public/static/img/dev-logo.svg';
+import Sharing from '/public/static/img/sharing.svg';
+
 export default function Brand() {
   return (
-    <div className='container mx-auto flex flex-col md:flex lg:pt-20 lg:pb-16 lg:px-16 justify-center'>
-      <Image src={Logo} height={100} width={100} alt='logo Devs Experts' />
-      <h1 className='titulo'>Experts</h1>
+    <div className='containerResponsive aspect-auto mx-auto flex md:flex lg:pt-20 lg:pb-16 justify-center gap-36 items-center'>
+      <div className='hidden md:flex md:items-center justify-items-center '>
+        <Image
+          className='md:h-32 w-auto'
+          src={Logo}
+          alt='logo Devs Experts'
+          height={50}
+          quality={100}
+        />
+        <h1 className='uppercase text-sm md:text-2xl lg:text-6xl text-important'>
+          Experts
+        </h1>
+      </div>
+      <Image
+        className='w-auto md:h-40 lg:h-64'
+        height={150}
+        quality={100}
+        src={Sharing}
+        alt='Ilustração de pessoas compartilhando conhecimento pela internet'
+      />
     </div>
   );
 }

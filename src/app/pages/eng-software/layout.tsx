@@ -1,5 +1,4 @@
-import Brand from '../components/brand';
-import NavBar from '../components/navbar';
+import NavBar from '../../components/navbar';
 import EngSoftware from './page';
 
 export default function EngSoftwareLayout() {
