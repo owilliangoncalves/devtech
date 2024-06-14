@@ -14,7 +14,7 @@ export default function Brand() {
           quality={100}
         />
         <h1 className='uppercase text-sm md:text-2xl lg:text-6xl text-important'>
-          Experts
+          Exp
         </h1>
       </div>
       <Image

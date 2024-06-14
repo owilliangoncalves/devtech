@@ -1,7 +1,7 @@
 export default function Manifesto() {
   return (
     <div>
-      <h1>Manifesto DEVS Experts</h1>
+      <h1 className='titulo'>Manifesto DEV EXP</h1>
       <p>
         Em um mundo cada vez mais digital, onde a tecnologia desempenha um papel
         central em nossas vidas, acreditamos que o conhecimento em programação e
@@ -28,7 +28,7 @@ export default function Manifesto() {
         acessível e eficaz para o maior número de pessoas possível. Estamos
         buscando ilustrações e recursos visuais que abrangem uma diversidade
         maior de público, respeitando e celebrando as diferentes formas de
-        aprender. Pra DEVS Experts, ser diferente é normal
+        aprender. Pra DEV EXP, ser diferente é normal
       </p>
       <p>
         Se você possui habilidades com ilustração ou acredita ter uma boa
@@ -37,11 +37,13 @@ export default function Manifesto() {
         conhecimento, tornando os conceitos mais claros e o aprendizado mais
         agradável e eficaz.
       </p>
-      <p></p> O conhecimento não deve ser guardado, se te ajudamos de alguma
-      forma #compartilhe. Acreditamos que o conhecimento deva ser livre e
-      disseminado, permitindo que todos tenham a oportunidade de crescer e se
-      desenvolver. Acreditamos que, ao democratizar o acesso ao conhecimento,
-      estamos contribuindo para um mundo mais justo e equitativo.
+      <p>
+        O conhecimento não deve ser guardado, se te ajudamos de alguma forma
+        #compartilhe. Acreditamos que o conhecimento deva ser livre e
+        disseminado, permitindo que todos tenham a oportunidade de crescer e se
+        desenvolver. Acreditamos que, ao democratizar o acesso ao conhecimento,
+        estamos contribuindo para um mundo mais justo e equitativo.
+      </p>
       <p>
         Apoiamos a técnica de estudo desenvolvida por Richard Feynman, que se
         baseia em explicar os conceitos de forma simples e clara, como se

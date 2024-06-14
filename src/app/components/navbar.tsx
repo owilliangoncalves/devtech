@@ -9,7 +9,7 @@ export default function NavBar() {
         <Link href={'/'}>
           <Image src={Logo} alt='Logo Devs Experts' height={45} width={45} />
         </Link>
-        <p className='ml-2 text-important '>EXPERTS</p>
+        <p className='ml-2 text-important '>EXP</p>
 
         <div className=' hidden md:flex justify-end w-full'>
           <ul className='flex gap-3 text-important '>
@@ -17,7 +17,7 @@ export default function NavBar() {
               <Link href={'/pages/eng-software'}>Publicações</Link>
             </li>
             <li className='btHover p-1 '>
-              <Link href={'/manifesto'}>Manifesto</Link>
+              <Link href={'/pages/manifesto'}>Manifesto</Link>
             </li>
             <li className='btHover p-1'>
               <Link href={'/nao-somos'}>Quem não somos</Link>
