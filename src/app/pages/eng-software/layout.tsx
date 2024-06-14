@@ -5,7 +5,6 @@ export default function EngSoftwareLayout() {
   return (
     <div>
       <NavBar />
-
       <EngSoftware />
     </div>
   );
