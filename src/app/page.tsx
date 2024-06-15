@@ -1,13 +1,16 @@
 import NavBar from './components/navbar';
 import Brand from './components/brand';
-import Disclaimer from './components/disclaimer';
+import Sharing from '/public/static/img/sharing.svg';
+import Footer from './components/footer';
+import Home from './pages/home/home';
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <NavBar />
-      <Brand />
-      <Disclaimer />
+      <Brand img={Sharing} />
+      <Home />
+      <Footer />
     </>
   );
 }
