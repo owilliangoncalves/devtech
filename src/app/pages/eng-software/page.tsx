@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import SoftwareEngineer from '/public/static/img/software-engineer.svg';
 import Resume from '@/app/components/resume';
+import Titulo from '@/app/components/titulo';
 
 export default function EngSoftware() {
   return (
@@ -17,7 +17,8 @@ export default function EngSoftware() {
           />
         </div>
 
-        <h1 className='titulo py-16 '>Engenharia de Software</h1>
+        <Titulo titulo='Engenharia de Software' className='py-16' />
+
         <div className='md:grid md:grid-cols-8 gap-1 '>
           <div className='col-start-1 bg-card'>
             <h6>Nessa página</h6>
