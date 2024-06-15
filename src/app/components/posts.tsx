@@ -1,15 +1,15 @@
 import React from 'react';
 
-interface PostsPros {
+interface PostsProps {
   className?: string;
-  titulo: string;
+  tituloPosts: string;
 }
 
-const Posts: React.FC<PostsPros> = ({ className, titulo, ...props }) => {
+const Posts: React.FC<PostsProps> = ({ className, tituloPosts, ...props }) => {
   return (
     <div className={` text-md ${className || ''}`} {...props}>
-      <h2 className={`titulo-card  ${className || ''}`} {...props}>
-        {titulo}
+      <h2 className={` tituloCard  ${className || ''}`} {...props}>
+        {tituloPosts}
       </h2>
     </div>
   );
