@@ -3,7 +3,7 @@ import Logo from '/public/static/img/dev-logo.svg';
 
 export default function Brand({ ...props }) {
   return (
-    <div className='containerResponsive aspect-auto mx-auto flex md:flex lg:pt-20 lg:pb-16 justify-center gap-36 items-center'>
+    <div className='containerResponsive flex md:flex lg:pt-20 lg:pb-16 justify-around gap-36 items-center'>
       <div className='hidden md:flex md:items-center justify-items-center '>
         <Image
           className='md:h-32 w-auto'

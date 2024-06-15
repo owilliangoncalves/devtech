@@ -1,10 +1,8 @@
 export default function Paragraph({ ...props }) {
   return (
-    <div className='containerResponsive'>
-      <p className='py-2'>
-        {' '}
-        <span className='mp'>{props.primeiraPalavra}</span> {props.texto}
-      </p>
-    </div>
+    <p className='first:pt-2 leading-loose'>
+      {' '}
+      <span className='mp'>{props.primeiraPalavra}</span> {props.texto}
+    </p>
   );
 }

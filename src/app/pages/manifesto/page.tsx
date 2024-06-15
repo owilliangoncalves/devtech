@@ -4,9 +4,10 @@ import Posts from '@/app/components/posts';
 
 export default function Manifesto() {
   return (
-    <>
-      <Titulo titulo='Nosso manifesto' />
-      <Posts titulo='Manifesto DEV EXP' />
+    <div className='containerResponsive'>
+      <Titulo titulo='Manifesto DEV EXP' />
+      <Posts titulo='Nosso manifesto' />
+
       <Paragraph
         primeiraPalavra='Em'
         texto='um mundo cada vez mais digital, onde a tecnologia desempenha um papel
@@ -65,6 +66,6 @@ export default function Manifesto() {
         texto='a nós nessa missão e vamos, juntos, democratizar o conhecimento. Juntos,
         podemos fazer a diferença.'
       />
-    </>
+    </div>
   );
 }

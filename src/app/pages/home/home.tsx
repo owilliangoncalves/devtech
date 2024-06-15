@@ -3,9 +3,10 @@ import Posts from '@/app/components/posts';
 import Titulo from '@/app/components/titulo';
 export default function Home() {
   return (
-    <div>
+    <div className='containerResponsive'>
       <Titulo titulo='Disclaimer' />
       <Posts titulo='Olá! Seja bem vindo(a) ao DEV EXP 👋🏽' />
+
       <Paragraph
         primeiraPalavra='Feito'
         texto='por estudantes de Engenharia de
