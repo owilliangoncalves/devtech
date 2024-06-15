@@ -10,11 +10,11 @@ export default function Manifesto() {
     <>
       <div className='containerResponsive'>
         <Titulo titulo='Manifesto DEV EXP' />
-        <Posts titulo='Nosso manifesto' />
+        <Posts tituloPosts='Nosso manifesto' />
       </div>
       <div className='bg-card rounded-sm shadow-md'>
         <div className='containerResponsive'>
-          <div className=' md:grid grid-cols-2 gap-x-10 items-center justify-items-center'>
+          <div className=' lg:grid grid-cols-2 gap-x-10 items-center justify-items-center'>
             <Paragraph
               primeiraPalavra='Em'
               texto='um mundo cada vez mais digital, onde a tecnologia desempenha um papel
@@ -35,7 +35,7 @@ export default function Manifesto() {
             />
             <div className='flex justify-content-center'>
               <Image
-                className='hidden md:block w-auto md:h-40 lg:h-64'
+                className='hidden lg:block w-auto md:h-40 lg:h-64'
                 src={Connect}
                 alt='3 livros empilhados lembrando uma escada com um boneco subindo'
                 height={300}
@@ -45,7 +45,7 @@ export default function Manifesto() {
           </div>
           <div className='md:grid grid-cols-2 gap-x-10 gap-y-10 items-center justify-items-center'>
             <Image
-              className='w-auto md:h-40 lg:h-64'
+              className='w-auto md:h-32 lg:h-64'
               src={Road}
               alt='Uma mulher próxima a um globo com 3 pins coloridos apontando para algumas regiões'
               width={400}

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className='containerResponsive'>
       <Titulo titulo='Disclaimer' />
-      <Posts titulo='Olá! Seja bem vindo(a) ao DEV EXP 👋🏽' />
+      <Posts tituloPosts='Olá! Seja bem vindo(a) ao DEV EXP 👋🏽' />
 
       <Paragraph
         primeiraPalavra='Feito'
