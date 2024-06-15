@@ -1,37 +1,39 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import SoftwareEngineer from '/public/static/img/software-engineer.svg';
+import Resume from '@/app/components/resume';
 
 export default function EngSoftware() {
   return (
     <>
-      <section className='container mx-auto'>
+      <section className='containerResponsive'>
+        <div className='justify-center w-full flex'>
+          <Image
+            src={SoftwareEngineer}
+            alt='Um rapaz com capuz caminhando, ao fundo um painel com símbolos que lembram códigos'
+            height={320}
+            quality={100}
+            className='w-auto md:h-80 '
+          />
+        </div>
+
         <h1 className='titulo py-16 '>Engenharia de Software</h1>
-        <div className='md:grid md:grid-cols-3 gap-3'>
-          <div className='bg-card'>
-            <Link href={'/linguagens/java-script'}>
-              <h1>JavaScript</h1>
-              <p className='no-wrap'>
-                Veja conteúdos relacionado a linguagem que é queridinha de quem
-                está começando
-              </p>
-            </Link>
+        <div className='md:grid md:grid-cols-8 gap-1 '>
+          <div className='col-start-1 bg-card'>
+            <h6>Nessa página</h6>
           </div>
-          <div className='bg-card'>
-            <Link href={'/linguagens/java-script'}>
-              <h1>Ruby</h1>
-              <p className='no-wrap'>
-                Veja conteúdos relacionado a linguagem que é queridinha de quem
-                está começando
-              </p>
-            </Link>
-          </div>
-          <div className='bg-card'>
-            <Link href={'/linguagens/java-script'}>
-              <h1>GoLang</h1>
-              <p className='no-wrap'>
-                Veja conteúdos relacionado a linguagem que é queridinha de quem
-                está começando
-              </p>
-            </Link>
+          <div className='col-start-2 col-span-7'>
+            <div className='grid grid-cols-3 gap-1'>
+              <Resume
+                path='/eng-software/linguagens'
+                tituloCard='linguagens de programação'
+              />
+              <Resume
+                path='/requisitos'
+                tituloCard='engenharia de requisitos'
+              />
+              <Resume path='/frameworks' tituloCard='frameworks' />
+            </div>
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Devs Experts',
+  title: 'DEV EXP | Home',
   description:
     'Aprenda Engenharia de Software de uma forma leve. Feito por estudantes de Engenharia de Software para estudantes.',
 };
