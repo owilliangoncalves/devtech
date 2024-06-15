@@ -14,13 +14,13 @@ export default function NavBar() {
         <div className=' hidden md:flex justify-end w-full'>
           <ul className='flex gap-3 text-important '>
             <li className='ml-3 btHover active:bg-hover p-1  '>
+              <Link href={'/'}>Home</Link>
+            </li>
+            <li className='ml-3 btHover active:bg-hover p-1  '>
               <Link href={'/pages/eng-software'}>Publicações</Link>
             </li>
             <li className='btHover p-1 '>
               <Link href={'/pages/manifesto'}>Manifesto</Link>
-            </li>
-            <li className='btHover p-1'>
-              <Link href={'/nao-somos'}>Quem não somos</Link>
             </li>
           </ul>
         </div>
