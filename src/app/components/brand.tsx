@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Logo from '/public/static/img/dev-logo.svg';
-import Sharing from '/public/static/img/sharing.svg';
 
-export default function Brand() {
+export default function Brand({ ...props }) {
   return (
     <div className='containerResponsive aspect-auto mx-auto flex md:flex lg:pt-20 lg:pb-16 justify-center gap-36 items-center'>
       <div className='hidden md:flex md:items-center justify-items-center '>
@@ -21,7 +20,7 @@ export default function Brand() {
         className='w-auto md:h-40 lg:h-64'
         height={150}
         quality={100}
-        src={Sharing}
+        src={props.img}
         alt='Ilustração de pessoas compartilhando conhecimento pela internet'
       />
     </div>
