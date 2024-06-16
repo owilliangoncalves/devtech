@@ -4,7 +4,7 @@ import Resume from '@/app/components/resume';
 import Titulo from '@/app/components/titulo';
 import SideNav from '@/app/components/sidenav';
 
-export default function EngSoftware() {
+export default function PagePosts() {
   return (
     <>
       <section className='containerResponsive'>

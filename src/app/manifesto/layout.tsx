@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Footer from '@/app/components/footer';
-import NavBar from '../../components/navbar';
+import NavBar from '../components/navbar';
 import Manifesto from './page';
 import Brand from '@/app/components/brand';
 import Manifest from '/public/static/img/manifest.svg';

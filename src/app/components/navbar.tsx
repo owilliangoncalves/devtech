@@ -17,7 +17,7 @@ export default function NavBar() {
               <Link href={'/'}>Home</Link>
             </li>
             <li className='ml-3 btHover active:bg-hover p-1  '>
-              <Link href={'/pages/eng-software'}>Publicações</Link>
+              <Link href={'/posts'}>Posts</Link>
             </li>
             <li className='btHover p-1 '>
               <Link href={'/pages/manifesto'}>Manifesto</Link>
