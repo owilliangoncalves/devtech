@@ -25,7 +25,7 @@ export default function PageLinguagens() {
           <div className='col-start-2 col-span-7'>
             <div className='grid grid-cols-3 gap-3'>
               <Resume
-                path='/blog/linguagens/java-script'
+                path='/blog/linguagens/java-  script'
                 tituloCard='JavaScript'
               />
               <Resume
