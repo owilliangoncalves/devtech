@@ -1,7 +1,7 @@
 import Paragraph from '@/app/components/paragraph';
 import Posts from '@/app/components/posts';
 import Titulo from '@/app/components/titulo';
-export default function Home() {
+export default function PageHome() {
   return (
     <div className='containerResponsive'>
       <Titulo titulo='Disclaimer' />
