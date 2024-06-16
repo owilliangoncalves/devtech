@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Leia o nosso manifesto e entenda no que acreditamos.',
 };
 
-export default function pageManifesto() {
+export default function LayoutManifesto() {
   return (
     <div>
       <NavBar />

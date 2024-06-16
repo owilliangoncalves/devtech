@@ -10,9 +10,7 @@ export const metadata: Metadata = {
 export default function LayoutLinguagens() {
   return (
     <div>
-      <NavBar />
       <PageLinguagens />
-      <Footer />
     </div>
   );
 }

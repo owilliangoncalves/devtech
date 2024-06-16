@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Connect from '/public/static/img/connect.svg';
 import Road from '/public/static/img/road.svg';
 
-export default function Manifesto() {
+export default function PageManifesto() {
   return (
     <>
       <div className='containerResponsive'>

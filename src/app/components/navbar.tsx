@@ -20,7 +20,7 @@ export default function NavBar() {
               <Link href={'/posts'}>Posts</Link>
             </li>
             <li className='btHover p-1 '>
-              <Link href={'/pages/manifesto'}>Manifesto</Link>
+              <Link href={'/manifesto'}>Manifesto</Link>
             </li>
           </ul>
         </div>
