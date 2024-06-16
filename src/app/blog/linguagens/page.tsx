@@ -4,7 +4,7 @@ import Resume from '@/app/components/resume';
 import Titulo from '@/app/components/titulo';
 import SideNav from '@/app/components/sidenav';
 
-export default function PagePosts() {
+export default function PageLinguagens() {
   return (
     <>
       <section className='containerResponsive'>
@@ -18,19 +18,19 @@ export default function PagePosts() {
           />
         </div>
 
-        <Titulo titulo='Engenharia de Software' className='py-16' />
+        <Titulo titulo='Linguagens de Programação' className='py-16' />
 
         <div className='md:grid md:grid-cols-8 gap-1'>
           <SideNav />
           <div className='col-start-2 col-span-7'>
             <div className='grid grid-cols-3 gap-3'>
               <Resume
-                path='/blog/linguagens'
-                tituloCard='linguagens de programação'
+                path='/blog/linguagens/java-script'
+                tituloCard='JavaScript'
               />
               <Resume
-                path='/requisitos'
-                tituloCard='arquitetura e design de sistemas'
+                path='/blog/linguagens/typescript'
+                tituloCard='TypeScript'
               />
               <Resume path='/frameworks' tituloCard='padrões de projeto' />
               <Resume path='/frameworks' tituloCard='banco de dados' />
