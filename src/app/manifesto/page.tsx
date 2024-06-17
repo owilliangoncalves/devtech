@@ -1,10 +1,10 @@
-import Paragraph from '@/app/components/paragraph';
-import Titulo from '@/app/components/titulo';
-import Posts from '@/app/components/posts';
+import Paragraph from '@/components/paragraph';
+import Titulo from '@/components/titulo';
+import Posts from '@/components/posts';
 import Image from 'next/image';
 import Learning from '/public/static/img/onlineLearning.svg';
 import Road from '/public/static/img/road.svg';
-import StorySet from '../components/storyset';
+import StorySet from '../../components/storyset';
 
 export default function PageManifesto() {
   return (

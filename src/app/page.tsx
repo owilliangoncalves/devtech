@@ -1,7 +1,7 @@
-import NavBar from './components/navbar';
-import Brand from './components/brand';
+import NavBar from '../components/navbar';
+import Brand from '../components/brand';
 import Educational from '/public/static/img/educational.svg';
-import Footer from './components/footer';
+import Footer from '../components/footer';
 import PageHome from './home/home';
 
 export default function App() {

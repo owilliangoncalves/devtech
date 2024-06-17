@@ -1,6 +1,6 @@
-import Paragraph from '@/app/components/paragraph';
-import Posts from '@/app/components/posts';
-import Titulo from '@/app/components/titulo';
+import Paragraph from '@/components/paragraph';
+import Posts from '@/components/posts';
+import Titulo from '@/components/titulo';
 export default function PageHome() {
   return (
     <div className='containerResponsive'>

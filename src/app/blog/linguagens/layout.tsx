@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import NavBar from '@/app/components/navbar';
-import Footer from '@/app/components/footer';
+import NavBar from '@/components/navbar';
+import Footer from '@/components/footer';
 export const metadata: Metadata = {
   title: 'DEV EXP | Linguagens ',
   description:
