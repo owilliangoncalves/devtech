@@ -3,7 +3,7 @@ import Footer from '@/app/components/footer';
 import NavBar from '../components/navbar';
 import Manifesto from './page';
 import Brand from '@/app/components/brand';
-import Manifest from '/public/static/img/manifest.svg';
+import Group from '/public/static/img/group.svg';
 
 export const metadata: Metadata = {
   title: 'DEV EXP | Manifesto ',
@@ -14,7 +14,7 @@ export default function LayoutManifesto() {
   return (
     <div>
       <NavBar />
-      <Brand img={Manifest} />
+      <Brand img={Group} />
       <Manifesto />
       <Footer />
     </div>

@@ -2,8 +2,9 @@ import Paragraph from '@/app/components/paragraph';
 import Titulo from '@/app/components/titulo';
 import Posts from '@/app/components/posts';
 import Image from 'next/image';
-import Connect from '/public/static/img/connect.svg';
+import Learning from '/public/static/img/onlineLearning.svg';
 import Road from '/public/static/img/road.svg';
+import StorySet from '../components/storyset';
 
 export default function PageManifesto() {
   return (
@@ -33,24 +34,18 @@ export default function PageManifesto() {
           acadêmicas, ele tem o papel do promover conexões que podem gerar uma
           boa ideia, além do papel na formação social do cidadão.'
             />
-            <div className='flex justify-content-center'>
+            <div className='flex flex-col '>
               <Image
-                className='hidden lg:block w-auto md:h-40 lg:h-64'
-                src={Connect}
-                alt='3 livros empilhados lembrando uma escada com um boneco subindo'
+                className=' w-auto md:h-40 lg:h-96'
+                src={Learning}
+                alt='Um homem tendo aula pela internet com uma mulher.'
                 height={300}
                 quality={100}
               />
+              <StorySet />
             </div>
           </div>
-          <div className='md:grid grid-cols-2 gap-x-10 gap-y-10 items-center justify-items-center'>
-            <Image
-              className='w-auto md:h-32 lg:h-64'
-              src={Road}
-              alt='Uma mulher próxima a um globo com 3 pins coloridos apontando para algumas regiões'
-              width={400}
-              quality={100}
-            />
+          <div className=' gap-x-10 gap-y-10 items-center justify-items-center'>
             <Paragraph
               primeiraPalavra='Nosso'
               texto='compromisso é com a didática inclusiva. Buscamos incessantemente
