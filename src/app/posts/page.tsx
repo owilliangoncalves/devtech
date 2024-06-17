@@ -22,40 +22,23 @@ export default function PagePosts() {
 
         <Titulo titulo='Engenharia de Software' className='py-16' />
 
-        <div className='lg:grid lg:grid-cols-8 gap-1'>
+        <div className='lg:grid lg:grid-cols-8 gap-3'>
           <SideNav />
           <div className='col-start-2 col-span-7'>
-            <div className='md:grid grid-cols-3 gap-3'>
+            <div className='md:grid grid-cols-3 gap-12 h-[300px]'>
               <Resume
-                className='resumeCard '
+                className=''
                 path='/blog/linguagens'
                 tituloCard='linguagens de programação'
               />
               <Resume
-                className='resumeCard'
                 path='/requisitos'
                 tituloCard='arquitetura e design de sistemas'
               />
-              <Resume
-                className='resumeCard'
-                path='/frameworks'
-                tituloCard='padrões de projeto'
-              />
-              <Resume
-                className='resumeCard'
-                path='/frameworks'
-                tituloCard='banco de dados'
-              />
-              <Resume
-                className='resumeCard'
-                path='/frameworks'
-                tituloCard='testes de software'
-              />
-              <Resume
-                className='resumeCard'
-                path='/frameworks'
-                tituloCard='gestão de projetos'
-              />
+              <Resume path='/frameworks' tituloCard='padrões de projeto' />
+              <Resume path='/frameworks' tituloCard='banco de dados' />
+              <Resume path='/frameworks' tituloCard='testes de software' />
+              <Resume path='/frameworks' tituloCard='gestão de projetos' />
             </div>
           </div>
         </div>

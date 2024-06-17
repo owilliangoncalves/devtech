@@ -13,7 +13,7 @@ export default function PageManifesto() {
         <Titulo titulo='Manifesto DEV EXP' />
         <Posts tituloPosts='Nosso manifesto' />
       </div>
-      <div className='bg-card rounded-sm shadow-md'>
+      <div className=' rounded-sm shadow-md'>
         <div className='containerResponsive'>
           <div className=' lg:grid grid-cols-2 gap-x-10 items-center justify-items-center'>
             <Paragraph

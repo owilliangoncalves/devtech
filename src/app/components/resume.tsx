@@ -15,9 +15,9 @@ const Resume: React.FC<ResumeProps> = ({
 }) => {
   return (
     <>
-      <section className=' hover:bg-card flex flex-col rounded-md px-4 py-2 justify-items-center '>
+      <section className=' shadow-md  flex flex-col rounded-md px-4 py-2 justify-items-center transform hover:scale-105 duration-200 '>
         <Link href={path}>
-          <h2 className='text-link font-base'>{tituloCard.toUpperCase()}</h2>
+          <h2 className='text-link font-base '>{tituloCard.toUpperCase()}</h2>
           <p
             className={`no-wrap mt-1 font-light ${className || ''}`}
             {...props}

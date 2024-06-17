@@ -2,11 +2,14 @@
 .mp {
   @apply ml-10;
 }
+.buttonCustom {
+  @apply ml-3 btHover active:bg-hover p-1 hover:duration-300;
+}
 .cardContainer {
   @apply container mx-auto text-muted text-wrap lg:py-3 text-justify  leading-relaxed;
 }
 .resumeCard {
-  @apply bg-card px-4 py-2 rounded-md;
+  @apply bg-card  py-2 rounded-md;
 }
 .titulo {
   @apply text-important pb-3 text-3xl tracking-wide font-bold md:text-5xl lg:text-6xl;
