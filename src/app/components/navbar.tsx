@@ -4,7 +4,7 @@ import Logo from '/public/static/img/dev-logo.svg';
 
 export default function NavBar() {
   return (
-    <header className='containerResponsive'>
+    <header className='containerResponsive font-light'>
       <nav className='flex items-center '>
         <Link href={'/'}>
           <Image src={Logo} alt='Logo Devs Experts' height={45} width={45} />

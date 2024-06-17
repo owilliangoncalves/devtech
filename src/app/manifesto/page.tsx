@@ -17,8 +17,7 @@ export default function PageManifesto() {
         <div className='containerResponsive'>
           <div className=' lg:grid grid-cols-2 gap-x-10 items-center justify-items-center'>
             <Paragraph
-              primeiraPalavra='Em'
-              texto='um mundo cada vez mais digital, onde a tecnologia desempenha um papel
+              texto='Em um mundo cada vez mais digital, onde a tecnologia desempenha um papel
           central em nossas vidas, acreditamos que o conhecimento em programação
           e áreas afins deve ser acessível a todos. Não somos uma escola de
           programação e não estamos aqui para vender cursos, queremos
@@ -47,8 +46,7 @@ export default function PageManifesto() {
           </div>
           <div className=' gap-x-10 gap-y-10 items-center justify-items-center'>
             <Paragraph
-              primeiraPalavra='Nosso'
-              texto='compromisso é com a didática inclusiva. Buscamos incessantemente
+              texto='Nosso compromisso é com a didática inclusiva. Buscamos incessantemente
         aperfeiçoar nossas metodologias de ensino para que o aprendizado seja
         acessível e eficaz para o maior número de pessoas possível. Estamos
         buscando ilustrações e recursos visuais que abrangem uma diversidade
@@ -60,8 +58,7 @@ export default function PageManifesto() {
             />
           </div>
           <Paragraph
-            primeiraPalavra='O'
-            texto='conhecimento não deve ser guardado, se te ajudamos de alguma forma compartilhe. Acreditamos que o conhecimento deva ser livre e
+            texto='O conhecimento não deve ser guardado, se te ajudamos de alguma forma compartilhe. Acreditamos que o conhecimento deva ser livre e
         disseminado, permitindo que todos tenham a oportunidade de crescer e se
         desenvolver. Acreditamos que, ao democratizar o acesso ao conhecimento,
         estamos contribuindo para um mundo mais justo e equitativo. Apoiamos a técnica de estudo desenvolvida por Richard Feynman, que se baseia em
@@ -71,10 +68,7 @@ export default function PageManifesto() {
         conhecimento e promove uma aprendizagem mais profunda e significativa.'
           />
 
-          <Paragraph
-            primeiraPalavra='Junte-se'
-            texto='a nós nessa missão e vamos, juntos, democratizar o conhecimento. Juntos,podemos fazer a diferença.'
-          />
+          <Paragraph texto='Junte-se a nós nessa missão e vamos, juntos, democratizar o conhecimento. Juntos,podemos fazer a diferença.' />
         </div>
       </div>
     </>

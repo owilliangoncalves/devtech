@@ -8,7 +8,7 @@ const Titulo: React.FC<TituloProps> = ({ titulo, className, ...props }) => {
   return (
     <section>
       <div>
-        <h1 className={`titulo ${className || ''}`} {...props}>
+        <h1 className={`titulo font-normal ${className || ''}`} {...props}>
           {titulo}
         </h1>
       </div>
