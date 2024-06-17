@@ -1,13 +1,13 @@
-import PageJavaScript from './page';
-import NavBar from '@/app/components/navbar';
-import Footer from '@/app/components/footer';
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'DEV EXP | JavaScript ',
+  description: 'Veja o que já escrevemos sobre JavaScript.',
+};
 
-export default function LayoutJavaScript() {
-  return (
-    <div>
-      <NavBar />
-      <PageJavaScript />
-      <Footer />
-    </div>
-  );
+export default function LayoutJavaScript({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return <div>{children}</div>;
 }
