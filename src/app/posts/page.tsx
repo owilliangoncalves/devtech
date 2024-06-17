@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Developer from '/public/static/img/developer.svg';
-import Resume from '@/app/components/resume';
-import Titulo from '@/app/components/titulo';
-import SideNav from '@/app/components/sidenav';
-import StorySet from '../components/storyset';
+import Resume from '@/components/resume';
+import Titulo from '@/components/titulo';
+import SideNav from '@/components/sidenav';
+import StorySet from '@/components/storyset';
 
 export default function PagePosts() {
   return (

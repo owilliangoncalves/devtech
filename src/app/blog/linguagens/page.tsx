@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Programming from '/public/static/img/programming.svg';
-import StorySet from '@/app/components/storyset';
-import Titulo from '@/app/components/titulo';
-import Resume from '@/app/components/resume';
+import StorySet from '@/components/storyset';
+import Titulo from '@/components/titulo';
+import Resume from '@/components/resume';
 
 export default function PageLinguagens() {
   return (
