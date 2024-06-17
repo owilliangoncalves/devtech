@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import NavBar from '@/app/components/navbar';
-import PageLinguagens from './page';
 import Footer from '@/app/components/footer';
 export const metadata: Metadata = {
   title: 'DEV EXP | Linguagens ',
@@ -8,11 +7,15 @@ export const metadata: Metadata = {
     'Veja o que já escrevemos sobre algumas linguagens de programação.',
 };
 
-export default function LayoutLinguagens() {
+export default function LayoutJavaScript({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <div>
       <NavBar />
-      <PageLinguagens />
+      {children}
       <Footer />
     </div>
   );
