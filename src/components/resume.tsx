@@ -1,24 +1,23 @@
 'use client';
-import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-
 interface ResumeProps {
   tituloCard: string;
   path: string;
   className?: string;
 }
+import React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
-const Resume: React.FC<ResumeProps> = ({
+export default function Resume({
   tituloCard,
   path,
   className,
   ...props
-}) => {
+}: ResumeProps) {
   const router = useRouter();
   return (
     <>
-      <section className=' shadow-md  flex flex-col rounded-md px-4 py-2 justify-items-center transform hover:scale-105 duration-200 '>
+      <section className=' shadow-md  flex flex-col rounded-md px-4 py-2 justify-items-center transform hover:scale-105 duration-200'>
         <Link href={path} onClick={() => console.log('oi')}>
           <h2 className='text-link font-base '>{tituloCard.toUpperCase()}</h2>
           <p
@@ -31,6 +30,4 @@ const Resume: React.FC<ResumeProps> = ({
       </section>
     </>
   );
-};
-
-export default Resume;
+}

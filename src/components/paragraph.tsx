@@ -1,14 +1,16 @@
-import React from 'react';
 interface ParagraphProps {
   texto: string;
+  nameRef?: string;
   className?: string;
 }
+import React from 'react';
 
-const Paragraph: React.FC<ParagraphProps> = ({
+export default function Paragraph({
   texto,
+  nameRef,
   className,
   ...props
-}) => {
+}: ParagraphProps) {
   return (
     <p
       className={`pt-4 leading-loose font-light ${className || ''}`}
@@ -17,5 +19,4 @@ const Paragraph: React.FC<ParagraphProps> = ({
       {texto}
     </p>
   );
-};
-export default Paragraph;
+}

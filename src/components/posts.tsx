@@ -1,11 +1,14 @@
-import React from 'react';
-
 interface PostsProps {
   className?: string;
   tituloPosts: string;
 }
+import React from 'react';
 
-const Posts: React.FC<PostsProps> = ({ className, tituloPosts, ...props }) => {
+export default function Posts({
+  className,
+  tituloPosts,
+  ...props
+}: PostsProps) {
   return (
     <div className={` text-md ${className || ''}`} {...props}>
       <h2 className={` tituloCard  ${className || ''}`} {...props}>
@@ -13,5 +16,4 @@ const Posts: React.FC<PostsProps> = ({ className, tituloPosts, ...props }) => {
       </h2>
     </div>
   );
-};
-export default Posts;
+}
