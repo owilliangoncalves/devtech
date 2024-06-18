@@ -24,11 +24,12 @@ export default function PageJavaScript() {
         <Titulo titulo='JavaScript' className='py-16' />
 
         <div className='lg:grid lg:grid-cols-2 gap-3'>
-          <SideNav />
+          <SideNav ids='' />
           <div className=''>
             <div className=' '>
               <Posts tituloPosts='Introdução' />
               <ParagraphReference
+                id='Introdução'
                 texto='Quando o JavaScript foi criado, inicialmente ele possuía o nome de LiveScript, mas a linguagem de programação Java era muito popular na época, então os criadores da linguagem JavaScript decidiram que iriam mudar o nome de LiveScript para JavaScript.'
                 nameRef='JavaScript.info'
                 link={'https://javascript.info/intro'}
