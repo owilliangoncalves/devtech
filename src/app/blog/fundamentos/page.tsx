@@ -24,7 +24,7 @@ export default function Fundamentos() {
         <Titulo titulo='Fundamentos' className='py-16' />
 
         <div className='lg:grid lg:grid-cols-4 gap-3'>
-          <SideNav ids='' />
+          <SideNav />
           <div className='col-span-3'>
             <div className=' '>
               <Posts tituloPosts='Variáveis' />
