@@ -1,5 +1,5 @@
 interface SideNavProps {
-  ids: string;
+  ids?: string;
 }
 function SideNav({ ids }: SideNavProps) {
   return (
