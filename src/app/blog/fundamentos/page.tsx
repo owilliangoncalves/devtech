@@ -37,11 +37,8 @@ export default function Fundamentos() {
               <ParagraphReference
                 id='Variáveis'
                 texto='Se em algum momento você já ousou em estudar algum conteúdo de programação em algum momento você já se deparou - ou irá se deparar - com o termo "variável/variáveis", mas o que é uma variável? Pense em um armário com diversas gavetas, e que em cada gaveta você pode guardar alguma coisa - qualquer coisa -, imagine que em cada gaveta você quer guardar um tipo de talher e que na primeira gaveta você guardou "colher" e colou uma etiqueta no lado de fora da gaveta com a letra "a" (somente a letra "a"). É sério, tente imaginar! A matemática trabalha muito com abstrações e aqui esta uma boa forma de começar abstrair coisas.'
-                nameRef=''
-                link={''}
               />
               <ParagraphReference
-                id=''
                 texto='Seguindo com a abstração, agora você sabe que toda vez que você precisar de uma colher deverá procurar uma gaveta que tem a letra "a", dentro dela deverá ter "colher". Agora troque o armário por um computador, as gavetas por espaços na memória do computador e colher pelo dado que você quer armazenar. Como as coisas que você quer guardar como pode ser qualquer coisa vamos chamar de variável (porque varia) e temos assim o conceito de variável. Logo, variável é um dado que é armazenado na memória do computador. '
                 nameRef='MDN Mozilla'
                 link={
