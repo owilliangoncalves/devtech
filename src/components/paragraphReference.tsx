@@ -1,8 +1,8 @@
 interface ParagraphReferenceProps {
   texto: string;
-  nameRef: string;
-  link: string;
-  id: string;
+  nameRef?: string;
+  link?: string;
+  id?: string;
   className?: string;
 }
 import React from 'react';
