@@ -28,6 +28,11 @@ export default function PagePosts() {
             <div className='md:grid grid-cols-3 gap-12 h-[300px]'>
               <Resume
                 className=''
+                path='/blog/fundamentos'
+                tituloCard='fundamentos da programação'
+              />
+              <Resume
+                className=''
                 path='/blog/linguagens'
                 tituloCard='linguagens de programação'
               />

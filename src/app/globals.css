@@ -25,5 +25,6 @@
 .containerResponsive {
   @apply container p-2;
 }
+
 @tailwind components;
 @tailwind utilities;

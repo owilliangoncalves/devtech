@@ -30,7 +30,7 @@ export default function PageJavaScript() {
               <Posts tituloPosts='Introdução' />
               <ParagraphReference
                 id='Introdução'
-                texto='Quando o JavaScript foi criado, inicialmente ele possuía o nome de LiveScript, mas a linguagem de programação Java era muito popular na época, então os criadores da linguagem JavaScript decidiram que iriam mudar o nome de LiveScript para JavaScript.'
+                texto='Quando o JavaScript foi criado, inicialmente ele possuía o nome de LiveScript, mas a linguagem de programação Java era muito popular na época, então os criadores da linguagem decidiram que iriam mudar o nome de LiveScript para JavaScript.'
                 nameRef='JavaScript.info'
                 link={'https://javascript.info/intro'}
               />
