@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import StorySet from '@/components/storyset';
 import Titulo from '@/components/titulo';
@@ -6,7 +7,11 @@ import Posts from '@/components/posts';
 import ParagraphReference from '@/components/paragraphReference';
 import Beginning from '/public/static/img/beginning.svg';
 import Code from '@/components/code';
+import { motion, useScroll } from 'framer-motion';
+
 export default function Fundamentos() {
+  const { scrollYProgress } = useScroll();
+
   return (
     <>
       <section className='containerResponsive'>
@@ -27,7 +32,12 @@ export default function Fundamentos() {
           <SideNav />
           <div className='col-span-3'>
             <div className=' '>
+              <motion.div
+                className='progress-bar'
+                style={{ scaleX: scrollYProgress }}
+              />
               <Posts tituloPosts='Variáveis' />
+
               <ParagraphReference
                 id='Introdução'
                 texto='Sabemos que atualmente (2024) não se necessita de ensino superior para se iniciar na área de programação, mas sempre incentivamos que você faça sim o curso. Semelhantemente acreditamos que não precisa ser necessariamente bom em matemática ou raciocínio lógico matemático para começar e que a medida com que você vai avançando nos desafios, acaba exercitando essas habilidades lógicas.'
@@ -61,9 +71,16 @@ export default function Fundamentos() {
                 id=''
                 texto='A intenção, por enquanto, não é que você entenda detalhadamente cada trecho do código - esse dia vai chegar -, então, vou ler o código. Eu criei uma variável chamada "a" que recebe o valor (string) "colher", toda vez que eu quiser acessar aquele dado eu solicito ao computador que busque o espaço na memória que eu chamei de "a", abra a gaveta e mostre o que há la dentro e o computador retorna o valor "colher".'
               />
-              <ParagraphReference
-                id=''
-                texto='Recapitulando e resumindo: variável é um dado que é armazenado na memória do computador. '
+              <ParagraphReference texto='Recapitulando e resumindo: variável é um dado que é armazenado na memória do computador. ' />
+
+              <ParagraphReference texto='Agora tente você fazer uma leitura do código abaixo e deixe anotado em algum lugar. ' />
+
+              <Code
+                variable='var '
+                nameVar='b '
+                operator='= '
+                value='"José"'
+                result='console.log(b) // "José" '
               />
             </div>
           </div>

@@ -25,6 +25,15 @@
 .containerResponsive {
   @apply container p-2;
 }
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #3a5ccc;
+  transform-origin: 0%;
+}
 
 @tailwind components;
 @tailwind utilities;
