@@ -9,10 +9,10 @@ export default function NavBar() {
         <Link href={'/'}>
           <Image src={Logo} alt='Logo Devs Experts' height={45} width={45} />
         </Link>
-        <p className='ml-2 text-important '>EXP</p>
+        <p className='ml-2 text-curious-blue-950 '>EXP</p>
 
         <div className=' hidden md:flex justify-end w-full'>
-          <ul className='flex gap-3 text-important   '>
+          <ul className='flex gap-3 text-curious-blue-950   '>
             <li className='buttonCustom '>
               <Link href={'/'}>Home</Link>
             </li>

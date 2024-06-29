@@ -3,23 +3,23 @@
   @apply ml-10;
 }
 .buttonCustom {
-  @apply ml-3 btHover active:bg-hover p-1 hover:duration-300;
+  @apply ml-3 btHover  active:bg-curious-blue-500 p-1 hover:duration-300;
 }
 .cardContainer {
   @apply container mx-auto text-muted text-wrap lg:py-3 text-justify  leading-relaxed;
 }
 .resumeCard {
-  @apply bg-card  py-2 rounded-md;
+  @apply bg-curious-blue-50  py-2 rounded-sm;
 }
 .titulo {
-  @apply text-important pb-3 text-3xl tracking-wide font-bold md:text-5xl lg:text-6xl;
+  @apply text-curious-blue-950 pb-3 text-3xl tracking-wide font-bold md:text-5xl lg:text-6xl;
 }
 .tituloCard {
-  @apply text-2xl py-3 text-important font-light;
+  @apply text-2xl py-3 text-curious-blue-950 font-light;
 }
 
 .btHover {
-  @apply hover:bg-hover hover:rounded;
+  @apply hover:bg-curious-blue-600 hover:rounded-sm hover:text-curious-blue-50;
 }
 
 .containerResponsive {
@@ -30,9 +30,13 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 3px;
-  background: #3a5ccc;
+  height: 10px;
+  background: #0095c6;
   transform-origin: 0%;
+}
+
+.buttonSideNav {
+  @apply text-curious-blue-800 block cursor-pointer font-light hover:bg-curious-blue-950 hover:text-curious-blue-50 hover:rounded-sm p-1;
 }
 
 @tailwind components;
