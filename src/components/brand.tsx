@@ -13,7 +13,7 @@ export default function Brand({ ...props }) {
           height={50}
           quality={100}
         />
-        <h1 className='font-light uppercase text-sm md:text-2xl lg:text-6xl text-important'>
+        <h1 className='font-light uppercase text-sm md:text-2xl lg:text-6xl text-curious-blue-950'>
           Exp
         </h1>
       </div>

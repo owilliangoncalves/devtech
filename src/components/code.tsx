@@ -17,11 +17,11 @@ export default function Code({
 }: CodeProps) {
   return (
     <pre>
-      <code className='bg-black p-3 block rounded-md'>
-        <span className='text-link ml-4'>{`${variable}`}</span>
-        <span className='text-card '>{`${nameVar}`}</span>
+      <code className='bg-[#222222] p-3 block rounded-md'>
+        <span className='text-curious-blue-50 ml-4'>{`${variable}`}</span>
+        <span className='text-curious-blue-400 '>{`${nameVar}`}</span>
         <span className='text-purple-600'>{`${operator}`}</span>
-        <span className='text-green-500'>{`${value}`}</span>
+        <span className='text-emerald-500'>{`${value}`}</span>
         <span className='text-zinc-400'>;</span>
         <br />
         <br />

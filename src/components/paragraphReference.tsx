@@ -5,7 +5,7 @@ interface ParagraphReferenceProps {
   id?: string;
   className?: string;
 }
-import React from 'react';
+
 import Link from 'next/link';
 
 export default function ParagraphReference({
@@ -18,15 +18,17 @@ export default function ParagraphReference({
 }: ParagraphReferenceProps) {
   return (
     <p
-      id={`${id}`}
-      className={`pt-4 leading-loose font-light  ${className || ''}`}
+      id={id}
+      className={`pt-4 leading-loose font-light text-curious-blue-950 ${
+        className || ''
+      }`}
       {...props}
     >
       {texto}{' '}
       <Link
         href={`${link}`}
         target='_blank'
-        className=' text-muted hover:text-link text-sm'
+        className=' text-muted hover:text-curious-blue-600 text-sm'
       >
         {nameRef}
       </Link>
